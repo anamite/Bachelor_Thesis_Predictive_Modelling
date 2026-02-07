@@ -1,17 +1,15 @@
-# Sales Forecasting Project
+## Sales Forecasting Project
+This repository contains a set of Jupyter Notebooks used for sales forecasting, data preprocessing, exploratory analysis, and model development. The project aims to predict future agricultural input sales based on historical data using time series forecasting methods, complemented by one machine learning approach.
 
-This repository contains a set of Jupyter Notebooks used for sales forecasting, data preprocessing, and model development. The project aims to predict future sales based on historical data using various machine learning models and techniques.
+### Notebooks Overview
+*SalesForecasting_BT_EDA.ipynb*
+This notebook focuses on the exploratory data analysis (EDA) of the sales data. It includes visualisation of temporal patterns, seasonality, variability, outlier detection, autocorrelation analysis (ACF and PACF), and stationarity testing. The analysis provides the foundation for model selection and preprocessing decisions.
 
-## Notebooks Overview
+*Sales_Forecasting_BT_DataProcessing.ipynb*
+This notebook documents the data preprocessing steps applied to the sales data. It addresses bulk sales redistribution, handling of missing timestamps, outlier assessment, aggregation to weekly and monthly frequencies and log transformation. These steps ensure temporal consistency and prepare the data for forecasting models.
 
-1. **Forecasting_PreprocessedData_BT.ipynb**
-   - This notebook contains the preprocessing steps applied to the sales data. It prepares the data for further analysis and modeling by handling missing values, scaling, encoding categorical variables, and performing feature engineering.
+*Forecasting_PreprocessedData_BT.ipynb*
+This notebook applies classical time series forecasting models, including the Naive method, Holt–Winters, SARIMA, and Prophet. It contains model estimation, parameter selection, and evaluation using appropriate forecasting error metrics and visualisations
 
-2. **RandomForests.ipynb**
-   - This notebook implements the Random Forest algorithm to predict future sales. It includes model training, hyperparameter tuning, and evaluation metrics.
-
-3. **SalesForecasting_BT_EDA.ipynb**
-   - This notebook focuses on the exploratory data analysis (EDA) of the sales data. It visualizes key trends, distributions, and correlations to better understand the data and inform modeling decisions.
-
-4. **Sales_Forecasting_BT_DataProcessing.ipynb**
-   - This notebook handles additional data processing tasks. It may include tasks like feature extraction, transformation, and cleaning that are necessary before applying machine learning algorithms.
+*RandomForests.ipynb*
+This notebook implements a Random Forest regression model as a complementary machine learning approach. Temporal features such as lag variables and calendar indicators are constructed to enable forecasting. The notebook includes model training and performance evaluation.
