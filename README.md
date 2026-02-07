@@ -15,11 +15,3 @@ This repository contains a set of Jupyter Notebooks used for sales forecasting, 
 
 4. **Sales_Forecasting_BT_DataProcessing.ipynb**
    - This notebook handles additional data processing tasks. It may include tasks like feature extraction, transformation, and cleaning that are necessary before applying machine learning algorithms.
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.x
-- Jupyter Notebook or JupyterLab
-- Required Python libraries (can be installed using `requirements.txt`)
