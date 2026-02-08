@@ -13,3 +13,7 @@ This repository contains a set of Jupyter Notebooks used for sales forecasting, 
 
 4. RandomForests.ipynb  
    This notebook implements a Random Forest regression model as a complementary machine learning approach. Temporal features such as lag variables and calendar indicators are constructed to enable forecasting. The notebook includes model training and performance evaluation.
+
+5. Forecasts_RAWDATA -  Miscellaneous   
+
+6. Forecasting_Daily_Sales -  Miscellaneous
